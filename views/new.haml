@@ -1,0 +1,5 @@
+%form{:action => '/tweets/create', :method => 'post'}
+	%input{:name => 'authenticity_token', :value => "#{session[:csrf]}", :type => 'hidden'}
+	%input{:name => 'entry', :type => 'text'}
+	%input{:value => '送信', :type => 'submit'}
+%a{:href => "/tweets/show"}= '戻る'

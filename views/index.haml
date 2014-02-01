@@ -1,30 +1,16 @@
-%form{:method => "POST", :action => '/comment'}
-	%input{:type => "hidden", :name => "_method", :value => "PUT"}
-	%table
-		%tr
-			%td 名前
-			%td
-				%input{:type => "text", :name => "name"}
-		%tr
-			%td タイトル
-			%td
-				%input{:type => "text", :name => "title"}
-		%tr
-			%td 内容
-			%td
-				%textarea{:name => "message", :cols => 60, :rows => 8}
-		%tr
-			%td
-			%td
-				%input{:type => "submit"}
-
-- @comments.each do |comment|
-	.coment
-		%h2= h comment.title
-		.info
-			%span.name== by #{h comment.name}
-			%span.date== ( #{h comment.date})
-			
-		.message
-			= comment.formatted_message
-			
+- @tweets.each do |tweet|
+	%div.edit
+		%span= tweet.id
+		%span= tweet.entry
+		%a{:href => "/#{tweet.id}/edit"}= '編集'
+	%div.delete
+		%form{:method => "post", :action => "/#{tweet.id}/delete"}
+			%input{:name => 'authenticity_token', :value => "#{session[:csrf]}", :type => 'hidden'}
+			%input{:type => "hidden", :name => "_method", :value => "delete"}
+			%input{:type => "submit", :value => "delete"}
+	%br
+%form.write{:action => '/create', :method => 'post'}
+	%h2= '書き込む'
+	%input{:name => 'authenticity_token', :value => "#{session[:csrf]}", :type => 'hidden'}
+	%input{:name => 'entry', :type => 'text'}
+	%input{:value => '送信', :type => 'submit'}

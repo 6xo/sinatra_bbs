@@ -1,0 +1,13 @@
+# Logfile created on 2014-02-01 17:58:28 +0900 by logger.rb/41954
+I, [2014-02-01T17:58:28.579873 #5151]  INFO -- : 0:  backports (3.4.1) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/backports-3.4.1.gemspec
+I, [2014-02-01T17:58:28.580289 #5151]  INFO -- : 0:  tilt (1.4.1) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-02-01T17:58:28.580591 #5151]  INFO -- : 0:  haml (4.0.5) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/haml-4.0.5.gemspec
+I, [2014-02-01T17:58:28.580855 #5151]  INFO -- : 0:  multi_json (1.8.4) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/multi_json-1.8.4.gemspec
+I, [2014-02-01T17:58:28.581110 #5151]  INFO -- : 0:  rack (1.5.2) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-02-01T17:58:28.581380 #5151]  INFO -- : 0:  rack-protection (1.5.2) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.2.gemspec
+I, [2014-02-01T17:58:28.581629 #5151]  INFO -- : 0:  rack-test (0.6.2) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2014-02-01T17:58:28.581880 #5151]  INFO -- : 0:  sequel (4.6.0) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/sequel-4.6.0.gemspec
+I, [2014-02-01T17:58:28.582143 #5151]  INFO -- : 0:  sinatra (1.4.4) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.4.gemspec
+I, [2014-02-01T17:58:28.582516 #5151]  INFO -- : 0:  sinatra-contrib (1.4.2) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-contrib-1.4.2.gemspec
+I, [2014-02-01T17:58:28.582778 #5151]  INFO -- : 0:  sqlite3 (1.3.8) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/sqlite3-1.3.8.gemspec
+I, [2014-02-01T17:58:28.583020 #5151]  INFO -- : 0:  bundler (1.5.1) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec

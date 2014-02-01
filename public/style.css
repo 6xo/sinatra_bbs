@@ -1,0 +1,12 @@
+h1 {
+	color:red;
+}
+.edit{
+	float:left;
+}
+.delete{
+	float:left;
+}
+.write{
+	clear:both;
+}

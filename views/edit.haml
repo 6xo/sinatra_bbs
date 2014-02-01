@@ -1,0 +1,6 @@
+%form{:action => "/#{@tweet.id}/update", :method => 'post'}
+	%input{:name => '_method', :value => 'put', :type => 'hidden'}
+	%input{:name => 'authenticity_token', :value => "#{session[:csrf]}", :type => 'hidden'}
+	%input{:name => 'entry', :type => 'text', :value => "#{@tweet["entry"]}"}
+	%input{:value => '送信', :type => 'submit'}
+%a{:href => "/"}= '戻る'
